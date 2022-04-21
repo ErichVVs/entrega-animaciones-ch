@@ -20,3 +20,23 @@ a{
                          "footer footer footer footer footer";
                         
 }
+/*Barra de navegación*/
+
+.navegacion{
+    grid-area: nav;
+    background-color: rgb(6, 5, 1);
+    display: flex;
+    justify-content: end;
+}
+.navegacion ul{
+    list-style: none;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navegacion ul li{
+    display: inline-block ;
+    font-size: 20px;
+    color: whitesmoke
+}
