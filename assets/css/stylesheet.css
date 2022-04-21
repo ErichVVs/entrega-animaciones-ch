@@ -88,6 +88,13 @@ a{
     width: 290px;
     transform: translate(0px, -20px);
 }
+.img2{
+    transition: all 1s;
+}
+.img2:hover{
+    width: 300px;
+    transform: translate(0px, -20px);
+}
 .btn{
     width: 100px;
     background-color: peru;
