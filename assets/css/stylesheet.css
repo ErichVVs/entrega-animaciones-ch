@@ -81,6 +81,22 @@ a{
     }
     
 }
+.img{
+    transition: all 1s;
+}
+.img:hover{
+    width: 300px;
+    transform: translate(0px, -20px);
+}
+.btn{
+    width: 100px;
+    background-color: peru;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    margin: 10px;
+}
 
 /*Banner de costado*/
 
