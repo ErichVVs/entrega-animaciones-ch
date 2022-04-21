@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.contenedor{
+    Overflow-x: Hidden;
+    background-color: rgb(34, 25, 7);
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 70px auto auto auto auto 100px;
+    grid-template-areas: "nav nav nav nav nav"
+                         "header header header header header"
+                         "main main main main main"
+                         "aside aside aside aside aside"
+                         "aside2 aside2 aside2 aside2 aside2"
+                         "footer footer footer footer footer";
+                        
+}
