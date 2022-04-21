@@ -82,6 +82,54 @@ a{
     
 }
 
+/*Banner de costado*/
+
+.secundario{
+    grid-area: aside;
+    background-color: white;
+        
+}
+.secundario__titulo{
+    text-align:center;
+    padding: 110px;
+    margin: 50px;
+    animation-name: aparecer ;
+    animation-duration: 6s;
+    animation-iteration-count:infinite
+}
+
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}    
+.aside2{
+    grid-area: aside2;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+.aside2__titulo{
+    text-align:center;
+    padding: 80px;
+    margin: 50px;
+    animation-name: aparecer ;
+    animation-duration: 6s;
+    animation-iteration-count:infinite
+}
+
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
+
 /*pie de pagina*/
 
 footer{
