@@ -97,7 +97,22 @@ a{
     color: white;
     margin: 10px;
 }
-
+.btn:hover{
+    background-color: rgb(180, 176, 175);
+}
+.titulo_inicio{
+    text-align: center;
+    margin: 80px;
+    padding: 30px;
+}
+.tarjetas{
+    display: flex; flex-direction: row;
+    justify-content: center;
+    
+}
+.tarjetas__info{
+    width: 140px;
+}
 /*Banner de costado*/
 
 .secundario{
