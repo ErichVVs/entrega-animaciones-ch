@@ -52,5 +52,32 @@ a{
     min-width: auto;
     min-height: auto;
     background-size: cover;
+}
 
+/*Contenido de la web*/
+
+.principal{
+    grid-area: main;
+    row-gap: 20px;
+    margin: 130px;
+    padding: 50px;
+    text-align: justify;
+    color: whitesmoke;
+}
+.principal__titulo{
+    margin: 50px;
+    text-align: center;
+    animation-name: aparecer ;
+    animation-duration: 8s;
+    animation-iteration-count:infinite
+}
+
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
 }
